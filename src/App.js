@@ -1,9 +1,10 @@
-
+import { Navbar, MainBody } from './components';
 
 function App() {
   return (
-    <div className="App">
-  
+    <div className="font-serif p-6">
+      <Navbar />
+      <MainBody />
     </div>
   );
 }

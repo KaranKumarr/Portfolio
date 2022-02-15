@@ -3,7 +3,21 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blueBell: {
+          300: '#9A8FCB',
+          400: '#5D4CAC',
+          500: '#341F97',
+          600: '#24166A',
+          700: '#1A104C',
+        }
+      }
+    },
+    fontFamily: {
+      'serif': ['Rokkitt', 'serif', 'Georgia']
+    }
   },
+
   plugins: [],
 }
