@@ -34,7 +34,7 @@ export default function Logo() {
         <motion.div
             variants={containerVariant}
             initial="hidden" animate="visible"
-            className='text-blueBell-500 text-3xl '
+            className='text-blueBell-500  text-4xl xl:text-5xl'
         >
             <motion.div variants={titleVariant}  >Karan</motion.div>
             <motion.div variants={titleVariant} className='mx-4'>Kumar</motion.div>
