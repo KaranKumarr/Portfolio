@@ -23,7 +23,7 @@ export default function Button({ children }) {
             initial="normal"
             whileHover="onHover"
             whileTap="onTap"
-            className='text-blueBell-500 border-2 border-blueBell-500 font-medium text-2xl mx-2 px-4 py-1 h-12'
+            className='text-blueBell-500 flex justify-center items-center border-2 border-blueBell-500 font-medium text-xl lg:text-2xl mx-2 lg:px-4 px-3 py-1 h-8 xl:h-12'
         >{children}</motion.button>
     );
 }

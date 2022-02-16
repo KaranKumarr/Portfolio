@@ -6,6 +6,9 @@ module.exports = {
     extend: {
       colors: {
         blueBell: {
+          50: '#cdc7e5',
+          100: '#b8b1db',
+          200: '#a49ad0',
           300: '#9A8FCB',
           400: '#5D4CAC',
           500: '#341F97',

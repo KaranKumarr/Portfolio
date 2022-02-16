@@ -1,6 +1,17 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@layer components {
+  .main-heading {
+    @apply text-3xl lg:text-4xl xl:text-5xl;
+  }
+  .sec-heading {
+    @apply;
+  }
+  .subtitle {
+    @apply text-base sm:text-lg md:text-xl lg:text-3xl;
+  }
+}
