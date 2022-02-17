@@ -14,4 +14,10 @@
   .subtitle {
     @apply text-base sm:text-lg md:text-xl lg:text-3xl;
   }
+  .icon {
+    @apply w-20 fill-white transition-colors ease-out hover:fill-blueBell-600 p-0.5 hover:p-1.5;
+  }
+  .icon-container {
+    @apply flex justify-center items-center transition-colors ease-out  cursor-pointer rounded-full  bg-blueBell-600 w-14 h-14 hover:bg-white;
+  }
 }
