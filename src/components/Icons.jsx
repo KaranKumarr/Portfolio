@@ -3,8 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function Icons() {
 
-
-
+  
     return (
         <div className='flex my-4 flex-row-reverse w-1/5 justify-around items-center'>
             <motion.a
