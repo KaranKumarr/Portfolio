@@ -24,7 +24,7 @@ export default function MainBody() {
             variants={containerVariant}
             initial="hidden"
             animate="visible"
-            className=' w-full h-full flex flex-col items-center justify-center lg:mt-8 my-6'>
+            className=' w-full h-full flex flex-col items-center justify-center lg:mt-8 md:my-6 my-24'>
             <div className=''>
                 <h1 className='text-blueBell-700 text-center  main-heading font-bold'>STUDENT, DEVELOPER & PROBLEM SOLVER</h1>
                 <h3 className='text-blueBell-600 text-center subtitle'>I am student of CS and I like problem solving.</h3>

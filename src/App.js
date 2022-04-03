@@ -4,7 +4,7 @@ import './components/resources/styles/App.css';
 function App() {
   return (
     <div className="font-serif h-[400vh]">
-      <div className='md:h-screen sm:h-4/5 h-4/6'>
+      <div className='md:h-screen'>
         <Navbar />
         <MainBody />
       </div>
