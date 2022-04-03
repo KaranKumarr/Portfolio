@@ -5,14 +5,17 @@ export default function Button({ children }) {
 
     const buttonVariant = {
         normal: {
-            borderRadius: '1rem'
+            borderTopLeftRadius: "1rem",
+            borderBottomRightRadius: "1rem"
         },
         onHover: {
-            borderRadius: '1.1rem',
+            borderTopLeftRadius: "0",
+            borderBottomRightRadius: "0",
+            borderTopRightRadius: "1rem",
+            borderBottomLeftRadius: "1rem",
             scale: 1.05
         },
         onTap: {
-            borderRadius: '0.9rem',
             scale: 0.95
         }
     };
