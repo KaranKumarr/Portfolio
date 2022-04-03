@@ -19,6 +19,7 @@ module.exports = {
     },
     fontFamily: {
       'serif': ['Rokkitt', 'serif', 'Georgia']
+      
     }
   },
 
