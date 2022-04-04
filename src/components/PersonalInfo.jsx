@@ -9,7 +9,7 @@ export default function PersonalInfo() {
     return (
         <>
 
-            <div className='flex justify-center relative bottom-0'>
+            <div className='flex justify-center relative bottom-0 '>
                 <img src={vectorImg} alt="vector img"
                     className='lg:w-auto w-2/4 '
                 />
