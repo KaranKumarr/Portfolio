@@ -6,14 +6,14 @@ export default function Button({ children }) {
     const buttonVariant = {
         normal: {
             borderTopLeftRadius: "1rem",
-            borderBottomRightRadius: "1rem"
+            borderBottomRightRadius: "1rem",
         },
         onHover: {
-            borderTopLeftRadius: "0",
-            borderBottomRightRadius: "0",
+            // borderTopLeftRadius: "0",
+            // borderBottomRightRadius: "0",
             borderTopRightRadius: "1rem",
             borderBottomLeftRadius: "1rem",
-            scale: 1.05
+           
         },
         onTap: {
             scale: 0.95
@@ -26,6 +26,7 @@ export default function Button({ children }) {
             initial="normal"
             whileHover="onHover"
             whileTap="onTap"
+
             className='text-blueBell-500 flex justify-center items-center border-2 border-blueBell-500 font-medium text-xl lg:text-2xl mx-2 lg:px-4 px-3 py-1 h-8 xl:h-12'
         >{children}</motion.button>
     );
