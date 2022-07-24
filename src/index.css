@@ -20,4 +20,7 @@
   .icon-container {
     @apply flex p-2 justify-between items-center transition-all ease-out cursor-pointer fill-blueBell-100 hover:fill-white  rounded-full;
   }
+  .container-border {
+    @apply border-blueBell-400 md:border-4 md:border-r-8 md:border-b-8 border-2 border-r-4 border-b-4 rounded-3xl;
+  }
 }
