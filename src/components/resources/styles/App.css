@@ -6,3 +6,9 @@
   grid-gap: 2rem 0;
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
 }
+
+@media (max-width: 640px) {
+  .skills-grid-layout {
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+  }
+}

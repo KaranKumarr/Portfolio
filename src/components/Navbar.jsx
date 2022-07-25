@@ -34,7 +34,7 @@ export default function Navbar() {
 
     return (
 
-        <nav className='flex justify-between p-6'>
+        <nav className='flex justify-between items-center p-6'>
             <Logo />
             <motion.div
                 variants={containerVariant}
