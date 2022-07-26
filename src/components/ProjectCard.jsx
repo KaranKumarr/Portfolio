@@ -83,7 +83,7 @@ function ProjectCard({ title, icon, description, technologies }) {
                     }
                     return (
                         <motion.img
-                            className='mx-4 border border-blueBell-700 p-1 rounded-2xl bg-white bg-opacity-10'
+                            className='mx-4 border h-12 w-12 md:h-16 md:w-16 border-blueBell-700 p-1 rounded-2xl bg-white bg-opacity-10'
                             src={tech} alt={"tech icon: " + index} key={index} />
                     );
                 })}
@@ -99,15 +99,15 @@ function ProjectCard({ title, icon, description, technologies }) {
                     {title}
                 </h2>
 
-            </div>;
+            </div>
 
 
             {/* Description that will show on hover */}
             <motion.p variants={descriptionMotion}
-                className='text-center absolute md:bottom-6 bottom-10  font-medium text-blueBell-700 p-2 text-xs md:text-base'>
+                className='text-center absolute md:bottom-6 bottom-10  font-medium text-blueBell-700 p-2 text-xs md:text-base capitalize'>
                 {description}
             </motion.p>
-        </motion.div >
+        </motion.div>
     );
 }
 

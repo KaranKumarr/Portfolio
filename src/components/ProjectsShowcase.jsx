@@ -1,9 +1,16 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import cinematoIcon from './resources/imgs/cinemato.png';
+import chatcordIcon from './resources/imgs/chatcord.png';
+import deliciousIcon from './resources/imgs/delicious-recipes.png';
+import wallpaperChangerApp from './resources/imgs/wallpaper-changer.png';
 import javascriptIcon from './resources/imgs/project-javascript.svg';
 import reactIcon from './resources/imgs/project-react.svg';
 import cssIcon from './resources/imgs/project-css.svg';
+import nodejsIcon from './resources/imgs/project-nodejs.svg';
+import socketioIcon from './resources/imgs/project-socketio.svg';
+import javaIcon from './resources/imgs/project-java.svg';
+import androidIcon from './resources/imgs/project-android.svg';
 
 function ProjectsShowcase() {
 
@@ -15,22 +22,22 @@ function ProjectsShowcase() {
             techUsed: [javascriptIcon, reactIcon, cssIcon]
         },
         {
-            title: 'Cinemato',
-            icon: cinematoIcon,
-            description: 'A website that showcases trending and best movies and tv shows, as well as allows users to search shows and movies to know more about them',
+            title: 'Delicious Recipes',
+            icon: deliciousIcon,
+            description: 'A simple recipe finder app that helps user find recipe based on categories and their search terms.',
             techUsed: [javascriptIcon, reactIcon, cssIcon]
         },
         {
-            title: 'Cinemato',
-            icon: cinematoIcon,
-            description: 'A website that showcases trending and best movies and tv shows, as well as allows users to search shows and movies to know more about them',
-            techUsed: [javascriptIcon, reactIcon, cssIcon]
+            title: 'ChatCord',
+            icon: chatcordIcon,
+            description: 'A Web App that allows users to join a chatroom to have discussions about their favourite programming language',
+            techUsed: [nodejsIcon, socketioIcon]
         },
         {
-            title: 'Cinemato',
-            icon: cinematoIcon,
-            description: 'A website that showcases trending and best movies and tv shows, as well as allows users to search shows and movies to know more about them',
-            techUsed: [javascriptIcon, reactIcon, cssIcon, reactIcon, cssIcon]
+            title: 'Wallpaper Changer',
+            icon: wallpaperChangerApp,
+            description: 'A android mobile app that allows users to change their wallpaper by searching through an external api',
+            techUsed: [javaIcon, androidIcon]
         }
     ];
 
@@ -45,13 +52,13 @@ function ProjectsShowcase() {
             </p>
             <div className='projects-grid-layout'>
                 {projects.map((project, index) => {
-                    return <ProjectCard
+                    return (<ProjectCard
                         key={index}
                         title={project.title}
                         icon={project.icon}
                         description={project.description}
                         technologies={project.techUsed}
-                    />;
+                    />);
                 })}
             </div>
         </div>
