@@ -1,5 +1,4 @@
-import { Navbar, MainBody, PersonalInfo, Skills } from './components';
-import ProjectsShowcase from './components/ProjectsShowcase';
+import { Navbar, MainBody, PersonalInfo, Skills, ProjectsShowcase, Contact } from './components';
 import './components/resources/styles/App.css';
 
 function App() {
@@ -12,6 +11,7 @@ function App() {
       <PersonalInfo />
       <Skills />
       <ProjectsShowcase />
+      <Contact />
     </div>
   );
 }
