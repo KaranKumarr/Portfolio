@@ -15,10 +15,12 @@ function Contact() {
                     <p className='subtitle  py-2'>
                         Karachi, Pakistan
                     </p>
-                    <a className='subtitle  py-2 underline' href="emailto:Karankumar0334@gmail">
+                    <a className='subtitle  py-2 underline' href="mailto:Karankumar0334@gmail">
                         Karankumar0334@gmail.com
                     </a>
-                    <a className='subtitle  py-2 underline' href="/">
+                    <a className='subtitle  py-2 underline'
+                        href={require('./resources/files/KaranKumar.pdf')} download={'Karan Kumar'}
+                    >
                         Resume
                     </a>
                 </div>
