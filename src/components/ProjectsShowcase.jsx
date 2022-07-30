@@ -43,7 +43,7 @@ function ProjectsShowcase() {
 
 
     return (
-        <div className='container-border my-10 py-10 lg:mx-30 lg:px-10 md:mx-18 md:px-10 sm:mx-10 sm:px-6 mx-4 px-4'>
+        <div className='container-border my-32 py-10 lg:mx-30 lg:px-10 md:mx-18 md:px-10 sm:mx-10 sm:px-6 mx-4 px-4'>
             <h1 className='text-blueBell-500 font-bold sec-heading'>
                 Projects
             </h1>

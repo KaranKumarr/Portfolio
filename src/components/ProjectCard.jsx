@@ -95,7 +95,7 @@ function ProjectCard({ title, icon, description, technologies }) {
             py-28 rounded-3xl
             '>
                 <img className=' h-28' src={icon} alt={title} />
-                <h2 className=' text-2xl font-bold text-blueBell-white tracking-widest uppercase '>
+                <h2 className=' text-2xl font-bold text-blueBell-white tracking-widest uppercase text-center px-8'>
                     {title}
                 </h2>
 
