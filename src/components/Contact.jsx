@@ -32,12 +32,12 @@ function Contact() {
             {/* Contact Form */}
             <div className='flex flex-col  bg-white h-full w-full py-12 px-8 rounded-md '>
                 <label htmlFor="contactName" className='subtitle text-blueBell-600 font-semibold'>Name</label>
-                <input type="text" name='contactName' className='ring-2 ring-blueBell-100 focus:ring-blueBell-500 border border-blue-100  focus:outline-none focus:border-blueBell-500  rounded-md subtitle  ' />
+                <input type="text" name='contactName' className=' border-2 border-blue-100  focus:outline-none focus:border-blueBell-500  rounded-md subtitle  ' />
                 <label htmlFor="contactEmail" className='subtitle text-blueBell-600 font-semibold mt-12'>Email</label>
-                <input type="email" name="contactEmail" className='ring-2 ring-blueBell-100 focus:ring-blueBell-500 border border-blue-100  focus:outline-none focus:border-blueBell-500  rounded-md subtitle  ' />
+                <input type="email" name="contactEmail" className=' border-2 border-blue-100  focus:outline-none focus:border-blueBell-500  rounded-md subtitle  ' />
                 <label htmlFor="contactMessage" className='subtitle text-blueBell-600 font-semibold mt-12'>Message</label>
                 <textarea type="text" name="contactMessage"
-                    className='ring-2 ring-blueBell-100 focus:ring-blueBell-500 border border-blue-100  focus:outline-none focus:border-blueBell-500  rounded-md subtitle  mb-12' ></textarea>
+                    className=' border-2 border-blue-100  focus:outline-none focus:border-blueBell-500  rounded-md subtitle  mb-12' ></textarea>
                 <Button> Send Message </Button>
             </div>
         </div>
