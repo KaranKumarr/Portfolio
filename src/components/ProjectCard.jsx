@@ -22,10 +22,7 @@ function useMediaQuery(query) {
 
 function ProjectCard({ title, icon, description, technologies }) {
 
-
-
     const isSmall = useMediaQuery('(min-width: 768px)');
-    console.log(isSmall);
 
     const technologiesMotion = isSmall ? {
         rest: {
