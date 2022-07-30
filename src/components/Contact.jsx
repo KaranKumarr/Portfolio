@@ -3,7 +3,7 @@ import Button from './Button';
 
 function Contact() {
     return (
-        <div className='flex items-center justify-around bg-blueBell-600 lg:p-40 md:p-28 sm:p-16 p-8'>
+        <div className='flex flex-col md:flex-row items-center justify-around bg-blueBell-600 lg:p-40 md:p-28 sm:p-16 p-8'>
 
             <div className=' text-white  h-full w-full'>
                 <div className='my-4'>
