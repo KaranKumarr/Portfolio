@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import Logo from './Logo';
 import Button from './Button';
 import { motion } from 'framer-motion';
@@ -51,8 +52,12 @@ export default function Navbar() {
 
                     </Button>
                 </motion.div>
-                <motion.div variants={childVariant}>
-                    <Button>Contact Me</Button>
+                <motion.div
+                    variants={childVariant}
+                >
+                    <Link to="contact" spy={true} smooth={true} offset={150} duration={500}>
+                        <Button>Contact Me</Button>
+                    </Link>
                 </motion.div>
             </motion.div>
         </nav>
