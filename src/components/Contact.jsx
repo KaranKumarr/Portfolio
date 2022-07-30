@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import contactUs from './resources/imgs/contact-us.svg';
 
 function Contact() {
     return (
@@ -20,6 +21,9 @@ function Contact() {
                     <a className='subtitle  py-2 underline' href="/">
                         Resume
                     </a>
+                </div>
+                <div className='flex items-start justify-start w-full'>
+                    <img src={contactUs} alt="contact-us" className='w-4/5 sm:m-0 my-6' />
                 </div>
             </div>
             {/* Contact Form */}
