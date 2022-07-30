@@ -20,7 +20,7 @@ function useMediaQuery(query) {
     return matches;
 }
 
-function ProjectCard({ title, icon, description, technologies }) {
+function ProjectCard({ title, icon, description, technologies, url }) {
 
     const isSmall = useMediaQuery('(min-width: 768px)');
 
@@ -66,8 +66,10 @@ function ProjectCard({ title, icon, description, technologies }) {
     } : {};
 
     return (
-        <motion.div initial="rest" whileHover="hover" animate="rest"
-            className=' w-11/12 h-11/12 relative  m-4  cursor-pointer'>
+        <motion.a initial="rest" whileHover="hover" animate="rest"
+            className=' w-11/12 h-11/12 relative  m-4  cursor-pointer'
+            href={url} rel="noopener noreferrer" target={'_blank'}
+        >
 
 
             {/* Technologies Icons that will show on hover */}
@@ -104,7 +106,7 @@ function ProjectCard({ title, icon, description, technologies }) {
                 className='text-center absolute md:bottom-6 bottom-10  font-medium text-blueBell-700 p-2 text-xs md:text-base capitalize'>
                 {description}
             </motion.p>
-        </motion.div>
+        </motion.a>
     );
 }
 

@@ -19,25 +19,29 @@ function ProjectsShowcase() {
             title: 'Cinemato',
             icon: cinematoIcon,
             description: 'A website that showcases trending and best movies and tv shows, as well as allows users to search shows and movies to know more about them',
-            techUsed: [javascriptIcon, reactIcon, cssIcon]
+            techUsed: [javascriptIcon, reactIcon, cssIcon],
+            url: 'https://cinematoinfo.netlify.app/'
         },
         {
             title: 'Delicious Recipes',
             icon: deliciousIcon,
             description: 'A simple recipe finder app that helps user find recipe based on categories and their search terms.',
-            techUsed: [javascriptIcon, reactIcon, cssIcon]
+            techUsed: [javascriptIcon, reactIcon, cssIcon],
+            url: 'https://recipess-delicious.netlify.app/'
         },
         {
             title: 'ChatCord',
             icon: chatcordIcon,
             description: 'A Web App that allows users to join a chatroom to have discussions about their favourite programming language',
-            techUsed: [nodejsIcon, socketioIcon]
+            techUsed: [nodejsIcon, socketioIcon],
+            url: 'https://cordchatapp.herokuapp.com/'
         },
         {
             title: 'Wallpaper Changer',
             icon: wallpaperChangerApp,
             description: 'A android mobile app that allows users to change their wallpaper by searching through an external api',
-            techUsed: [javaIcon, androidIcon]
+            techUsed: [javaIcon, androidIcon],
+            url: 'https://github.com/KaranKumarr/wallpaper-changer'
         }
     ];
 
@@ -58,6 +62,7 @@ function ProjectsShowcase() {
                         icon={project.icon}
                         description={project.description}
                         technologies={project.techUsed}
+                        url={project.url}
                     />);
                 })}
             </div>
