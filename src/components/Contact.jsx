@@ -30,8 +30,8 @@ function Contact() {
                         Karankumar0334@gmail.com
                     </a>
                     <a className='subtitle  py-2 underline'
-                        href={require('./resources/files/KaranKumar.pdf')} download={'Karan Kumar'}
-
+                        href={'https://drive.google.com/file/d/1r5qS9buKCf-jIgpiMn8LZCslgBmBxXRH/view?usp=sharing'}
+                        rel="noopener noreferrer" target={'_blank'}
                     >
                         Resume
                     </a>
