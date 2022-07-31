@@ -51,7 +51,7 @@ function Contact() {
                 <label htmlFor="contactMessage" className='subtitle text-blueBell-600 font-semibold mt-12'>Message</label>
                 <textarea type="text" name="contactMessage"
                     className=' border-2 border-blue-100  focus:outline-none focus:border-blueBell-500  rounded-md subtitle  mb-12' ></textarea>
-                <Button> <input type="subtitle" className='text-center cursor-pointer outline-none border-0 ' value={"Send Message"} /> </Button>
+                <Button type={"submit"}>Send Message</Button>
             </form>
         </div>
     );
